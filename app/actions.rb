@@ -1,3 +1,3 @@
 get '/' do
-"Hello"
+    File.read(File.join("app/views", "index.html"))
 end 
